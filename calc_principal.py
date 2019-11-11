@@ -16,10 +16,10 @@ x= x+1;
 x = x**nt
 
 i=1
-print(" Starting Amount = % 0.2f" % ( a )) 
+print("Starting Amount = % 0.2f" % ( a )) 
 
 for i in range (0,10):
-	
+	old_p =a	
 	p = a/x;
-	print(" At the end of year %d, r= %0.2f Percent,  Amount = % 0.2f"% (i+1,r*100, p)) 
+	print("Started Principal %.2f,  At the end of year %d, r= %0.2f Percent,  Amount = % 0.2f"% (old_p, i+1,r*100, p)) 
 	a=p
